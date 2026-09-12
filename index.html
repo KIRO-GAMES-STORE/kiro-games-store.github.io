@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#020814">
+<meta name="description" content="KIRO GAMES STORE - بيع وشراء وصيانة واكسسوارات البلايستيشن">
+<title>KIRO GAMES STORE | PlayStation Host</title>
+<link rel="icon" type="image/jpeg" href="icon0.jpg">
+<link rel="icon" type="image/png" href="icon0.png">
+<link rel="shortcut icon" href="icon0.jpg">
+<link rel="apple-touch-icon" href="icon0.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scanline"></div>
+
+<header class="header-bar">
+  <div class="brand-badge">
+    <img src="icon0.jpg" alt="KIRO GAMES STORE" class="logo-mini">
+    <span class="brand-name">KIRO GAMES STORE</span>
+  </div>
+  <h1 id="msgs">KIRO GAMES STORE PLAYSTATION HOST</h1>
+  <div class="header-actions">
+    <button class="lang-btn" id="langBtn" onclick="toggleLanguage()">EN</button>
+    <div class="status-indicator"><span class="status-dot"></span><span data-ar="النظام متصل" data-en="SYSTEM ONLINE">النظام متصل</span></div>
+  </div>
+</header>
+
+<main id="main-panel" class="glass-container">
+  <section class="hero">
+    <div class="hero-logo-wrap">
+      <div class="hero-ring"></div>
+      <img src="icon0.jpg" alt="Kiro Games Store" class="logo-hero">
+    </div>
+    <div class="hero-copy">
+      <div class="eyebrow">PLAYSTATION • GAMING • SERVICE</div>
+      <h2>KIRO GAMES STORE</h2>
+      <p data-ar="بيع • شراء • صيانة • اكسسوارات البلايستيشن" data-en="SELL • BUY • REPAIR • PLAYSTATION ACCESSORIES">بيع • شراء • صيانة • اكسسوارات البلايستيشن</p>
+    </div>
+  </section>
+
+  <section class="section-head">
+    <div><span class="section-kicker" data-ar="خدمات الأجهزة" data-en="CONSOLE SERVICES">خدمات الأجهزة</span><h3 data-ar="مركز البلايستيشن" data-en="PlayStation Host Center">مركز البلايستيشن</h3></div>
+    <span class="live-badge">LIVE</span>
+  </section>
+
+  <section class="featured-grid">
+    <a href="g2all/index.html" class="console-card card-gold" onmouseenter="setMsg('KIRO GAMES STORE • PS4 7.00 - 9.60')" onmouseleave="resetMsg()">
+      <div class="card-glow"></div><div class="card-number">01</div><div class="card-icon">7–9</div>
+      <div class="card-info"><span class="card-title" data-ar="PS4 إصدار 7.00 – 9.60" data-en="PS4 Firmware 7.00 – 9.60">PS4 إصدار 7.00 – 9.60</span><span class="card-subtitle">GoldHEN & Kernel Environment</span></div><span class="arrow">←</span>
+    </a>
+    <a href="ntfonto/index.html" class="console-card card-cyan" onmouseenter="setMsg('KIRO GAMES STORE • PS4 UP TO 11.02')" onmouseleave="resetMsg()">
+      <div class="card-glow"></div><div class="card-number">02</div><div class="card-icon">11</div>
+      <div class="card-info"><span class="card-title" data-ar="PS4 حتى إصدار 11.02" data-en="PS4 Up To 11.02">PS4 حتى إصدار 11.02</span><span class="card-subtitle">CSSFontFace Exploit Suite</span></div><span class="arrow">←</span>
+    </a>
+    <a href="fw13/index.html" class="console-card card-smart" onmouseenter="setMsg('KIRO GAMES STORE • SMART HOST')" onmouseleave="resetMsg()">
+      <div class="card-glow"></div><div class="card-number">03</div><div class="card-icon">5–13</div>
+      <div class="card-info"><span class="card-title" data-ar="Smart Host تلقائي" data-en="Smart Host Auto Detection">Smart Host تلقائي</span><span class="card-subtitle" data-ar="كشف تلقائي للـ Firmware 5.05 – 13.00" data-en="Auto Detect FW 5.05 – 13.00">كشف تلقائي للـ Firmware 5.05 – 13.00</span></div><span class="arrow">←</span>
+    </a>
+    <a href="Ps5/index.html" class="console-card card-ps5" onmouseenter="setMsg('KIRO GAMES STORE • PS5 9.00 - 12.00')" onmouseleave="resetMsg()">
+      <div class="card-glow"></div><div class="card-number">04</div><div class="card-icon card-icon-ps5">PS5</div>
+      <div class="card-info"><span class="card-title" data-ar="PS5 إصدار 9.00 – 12.00" data-en="PS5 Firmware 9.00 – 12.00">PS5 إصدار 9.00 – 12.00</span><span class="card-subtitle">PlayStation 5 Dedicated Kernel Hub</span></div><span class="arrow">←</span>
+    </a>
+  </section>
+
+  <section class="tools-grid">
+    <button class="btn-tool" onclick="openFirmwareCenter()"><span class="tool-icon">FW</span><span data-ar="مركز الـ Firmware" data-en="Firmware Center">مركز الـ Firmware</span></button>
+    <a href="https://ps5jb-umtx2.netlify.app/" target="_blank" rel="noopener" class="btn-tool"><span class="tool-icon">P5</span><span>PS5 UMTX2 v1.0</span></a>
+    <a href="restore/index.html" class="btn-tool"><span class="tool-icon">R</span><span data-ar="Restore Host" data-en="Restore Host">Restore Host</span></a>
+  </section>
+
+  <section class="store-info">
+    <div class="store-info-main">
+      <span class="section-kicker">KIRO GAMES STORE</span>
+      <h3 data-ar="كل ما تحتاجه لعالم البلايستيشن" data-en="Everything You Need For PlayStation">كل ما تحتاجه لعالم البلايستيشن</h3>
+      <p data-ar="بيع وشراء أجهزة البلايستيشن • صيانة • اكسسوارات • يد تحكم • سماعات" data-en="PlayStation sales & trade • repair • accessories • controllers • headsets">بيع وشراء أجهزة البلايستيشن • صيانة • اكسسوارات • يد تحكم • سماعات</p>
+    </div>
+    <div class="contact-grid">
+      <a href="tel:01095055336" class="contact-card"><span class="contact-icon">☎</span><span><small>CALL US</small><strong>01095055336</strong></span></a>
+      <a href="https://wa.me/01095055336" target="_blank" rel="noopener" class="contact-card whatsapp"><span class="contact-icon">W</span><span><small>WHATSAPP</small><strong>01225772035</strong></span></a>
+    </div>
+    <div class="social-row">
+      <a href="https://www.facebook.com/Kiro.Games.Store/" target="_blank" rel="noopener" class="facebook-btn"><span>f</span> <strong data-ar="صفحة KIRO GAMES STORE على فيسبوك" data-en="KIRO GAMES STORE on Facebook">صفحة KIRO GAMES STORE على فيسبوك</strong></a>
+    </div>
+    <div class="address"><span class="pin">●</span><span data-ar="ش أحمد عربي بجوار صيدلية إسلام فتحي – أمام كافيه ونس" data-en="Ahmed Araby St., next to Islam Fathy Pharmacy – opposite Wanes Cafe">ش أحمد عربي بجوار صيدلية إسلام فتحي – أمام كافيه ونس</span></div>
+  </section>
+</main>
+
+<section id="firmware-panel" class="glass-container firmware-panel" style="display:none;">
+  <div class="section-head"><div><span class="section-kicker">KIRO GAMES STORE</span><h3 data-ar="مركز الـ Firmware" data-en="Firmware Center">مركز الـ Firmware</h3></div><span class="live-badge">FW</span></div>
+  <div class="legacy-grid">
+    <button class="btn-legacy" onclick="location.replace('505goldhen/index.html')">5.05 GoldHEN</button><button class="btn-legacy" onclick="location.replace('505/index.html')">5.05 v2.5</button>
+    <button class="btn-legacy" onclick="location.replace('672goldhen/index.html')">6.72 GoldHEN</button><button class="btn-legacy" onclick="location.replace('672/index.html')">6.72 v3.0</button>
+    <button class="btn-legacy" onclick="location.replace('702/index.html')">7.02 v1.4</button><button class="btn-legacy" onclick="location.replace('75x/index.html')">7.50 – 7.55 v1.5</button>
+    <button class="btn-legacy" onclick="location.replace('900goldhen/index.html')">9.00 GoldHEN</button><button class="btn-legacy" onclick="location.replace('900v2/index.html')">9.00 v2.8 Manual</button><button class="btn-legacy" onclick="location.replace('900v3/index.html')">9.00 v3.0 Auto</button>
+  </div>
+  <button class="btn-tool btn-back" onclick="closeFirmwareCenter()">← <span data-ar="الرجوع للقائمة الرئيسية" data-en="Back To Main Menu">الرجوع للقائمة الرئيسية</span></button>
+</section>
+
+<footer class="footer-bar">
+  <div class="footer-brand">KIRO <span>GAMES STORE</span></div>
+  <div>بيع • شراء • صيانة • اكسسوارات البلايستيشن</div>
+  <a class="footer-facebook" href="https://www.facebook.com/Kiro.Games.Store/" target="_blank" rel="noopener">facebook.com/Kiro.Games.Store</a>
+</footer>
+<a class="floating-whatsapp" href="https://wa.me/01095055336" target="_blank" rel="noopener" aria-label="WhatsApp"><span>W</span></a>
+
+<script>
+let currentLang='ar';
+function setMsg(t){document.getElementById('msgs').innerHTML=t;}
+function resetMsg(){setMsg('KIRO GAMES STORE PLAYSTATION HOST');}
+function openFirmwareCenter(){document.getElementById('main-panel').style.display='none';document.getElementById('firmware-panel').style.display='block';setMsg('KIRO GAMES STORE FIRMWARE CENTER');window.scrollTo({top:0,behavior:'smooth'});}
+function closeFirmwareCenter(){document.getElementById('firmware-panel').style.display='none';document.getElementById('main-panel').style.display='block';resetMsg();window.scrollTo({top:0,behavior:'smooth'});}
+function toggleLanguage(){currentLang=currentLang==='ar'?'en':'ar';document.documentElement.lang=currentLang;document.documentElement.dir=currentLang==='ar'?'rtl':'ltr';document.querySelectorAll('[data-ar][data-en]').forEach(e=>e.textContent=e.getAttribute('data-'+currentLang));document.getElementById('langBtn').textContent=currentLang==='ar'?'EN':'AR';resetMsg();}
+</script>
+</body></html>
